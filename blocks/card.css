@@ -9,6 +9,14 @@
   display: block;
 }
 
+.card__title {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
 .card__content {
   display: flex;
   align-items: center;
