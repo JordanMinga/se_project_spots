@@ -54,7 +54,7 @@
   border-radius: 90px;
   opacity: 0.7;
   border: none;
-  background-color: #fcf5e5;
+  background-color: transparent;
   text-align: left;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .profile__add-btn:hover {
-  background: #212121cc;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
