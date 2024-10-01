@@ -36,6 +36,8 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
+  color: #212121;
+  opacity: 0.7;
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
@@ -56,6 +58,9 @@
   border: none;
   background-color: transparent;
   text-align: left;
+  cursor: pointer;
+  color: #212121;
+  transition: 0.4s;
 }
 
 .profile__edit-btn:hover {
@@ -76,6 +81,8 @@
   border: none;
   background-color: #212121;
   color: #fcf5e5;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .profile__add-btn:hover {
@@ -104,7 +111,9 @@
   }
 
   .profile__edit-btn {
+    margin: 0 auto;
     width: 100%;
+    text-align: center;
   }
 
   .profile__name {
