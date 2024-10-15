@@ -21,9 +21,7 @@
   color: #212121;
   text-overflow: ellipsis;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  text-wrap: nowrap;
 }
 
 .card__content {
